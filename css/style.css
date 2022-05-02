@@ -2,4 +2,28 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    background-color: #1c1c18;
+}
+.container{
+    max-width: 1000px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    padding: 50px;
+}
+.num{
+    width: 100px;
+    height: 100px;
+    background-color: #706f6e;
+}
+.fizz{
+    background-color: #c4bdad;
+}
+.buzz{
+    background-color: #dcded5;
+}
+.fizzbuzz{
+    background-color: #ab4c03;
 }
